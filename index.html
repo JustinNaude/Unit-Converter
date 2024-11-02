@@ -1,0 +1,44 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Unit Converter</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <!-- Conversion section -->
+    <h1 class="main-heading">UNIT CONVERTER</h1>
+    <div class="conversion-container">
+      <div class="conversion-inp">
+        <input type="text" name="units" id="unitConv" />
+        <div class="button-container">
+          <button id="convert-btn">CONVERT</button>
+          <button id="clear-btn">CLEAR</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Display results -->
+    <div class="results-container">
+      <!-- Length/Meter Conversion -->
+      <div class="conversion-sections" id="lm-sec">
+        <h3>Length (Meter/Feet)</h3>
+        <p id="disp-lm"></p>
+      </div>
+
+      <!-- Liters/Gallons Conversion -->
+      <div class="conversion-sections" id="lg-sec">
+        <h3>Volume (Litres/Gallons)</h3>
+        <p id="disp-lg"></p>
+      </div>
+
+      <!-- KG/Pounds Conversion -->
+      <div class="conversion-sections" id="kp-sec">
+        <h3>Mass (Kilograms/Pounds)</h3>
+        <p id="disp-kp"></p>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
